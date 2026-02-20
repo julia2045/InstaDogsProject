@@ -1,16 +1,18 @@
 🐶 InstaDogs
-<p align="center"> <img src="./preview.gif" width="800" alt="Demonstração da aplicação"/> </p> <p align="center"> <a href="https://seu-deploy-aqui.com">🔗 Ver Projeto Online</a> </p>
+<p align="center"> <img width="100%" alt="Preview InstaDogs" src="https://github.com/user-attachments/assets/30736113-f134-4724-8a6a-5aa194d9f740" /> </p>
+📸 Preview da Aplicação
+<p align="center"> <img width="48%" src="https://github.com/user-attachments/assets/1b602c2c-9c59-4150-9041-0fb405c098dd" /> <img width="48%" src="https://github.com/user-attachments/assets/ae22cd43-21d8-48f5-ad5b-d7fa97214f24" /> </p> <p align="center"> <img width="48%" src="https://github.com/user-attachments/assets/c368f010-15ae-4d3e-ab80-27d396abd755" /> <img width="48%" src="https://github.com/user-attachments/assets/87a5d158-2f20-43a9-aee4-5c1f1fc453a1" /> </p> <p align="center"> <img width="48%" src="https://github.com/user-attachments/assets/2a17b2b2-5aba-4a5b-9e53-f9ef5a2adc35" /> <img width="48%" src="https://github.com/user-attachments/assets/4b0b6732-48df-4219-97ac-9901bcae1baa" /> </p>
 📌 Sobre o Projeto
 
 O InstaDogs é uma aplicação web desenvolvida em React que simula uma rede social para compartilhamento de fotos de cães.
 
-O objetivo foi construir uma aplicação completa com autenticação, rotas protegidas e consumo de API, aplicando boas práticas de organização e arquitetura front-end.
+O projeto foi criado com o objetivo de desenvolver uma SPA completa com autenticação, controle de rotas e integração com API, aplicando boas práticas de arquitetura front-end e organização escalável.
 
 🎯 Problema Proposto
 
-Criar uma aplicação SPA que:
+Desenvolver uma aplicação que:
 
-Possuísse autenticação real com token
+Possuísse autenticação real baseada em token
 
 Controlasse acesso a rotas privadas
 
@@ -18,23 +20,23 @@ Consumisse dados de uma API externa
 
 Atualizasse a interface dinamicamente
 
-Mantivesse organização escalável
+Mantivesse estrutura organizada e escalável
 
 🚀 Principais Funcionalidades
 
-Cadastro e login de usuários
+🔐 Cadastro e login de usuários
 
-Autenticação baseada em token
+🛡️ Autenticação via token
 
-Rotas protegidas
+🚪 Rotas protegidas
 
-Publicação de fotos
+📸 Publicação de fotos
 
-Sistema de comentários
+💬 Sistema de comentários dinâmico
 
-Estatísticas de visualização
+📊 Estatísticas de visualização
 
-Interface responsiva
+📱 Interface responsiva
 
 🛠️ Stack Utilizada
 
@@ -54,15 +56,15 @@ API REST
 
 🧠 Decisões Técnicas
 
-Utilização de Context API para gerenciamento global de autenticação
+Gerenciamento global de autenticação com Context API
 
 Separação clara entre componentes, páginas e serviços
 
-Componentização para reutilização e escalabilidade
+Componentização visando reutilização e escalabilidade
 
-Controle de estado local e global bem definido
+Controle bem definido entre estado local e global
 
-Estrutura modular visando manutenção futura
+Estrutura modular preparada para manutenção futura
 
 📂 Estrutura do Projeto
 src/
