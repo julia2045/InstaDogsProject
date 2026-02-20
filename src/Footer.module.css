@@ -1,0 +1,11 @@
+.footer{
+    background: #fb1;
+    padding: 48px 16px 0 16px;
+    height: 160px ;
+    text-align: center;
+    color: #764701;
+}
+
+.footer p{
+    margin-top: 16px;
+}

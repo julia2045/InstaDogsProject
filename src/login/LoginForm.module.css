@@ -1,0 +1,43 @@
+.form{
+    margin-bottom: 32px;
+}
+
+.recuperacao{
+    display: inline-block;
+    color: #666;
+    padding: 8px 0;
+    line-height: 1;
+}
+
+.recuperacao::after{
+    content: '';
+    height: 2px;
+    width: 100%;
+    background: currentColor; /*pega a cor definida acima*/
+    display: block;
+}
+
+.cadastro{
+    margin-top: 64px;
+    margin-bottom: 64px ;
+}
+
+.cadastro p{
+    margin: 32px 0;
+    
+}
+
+.subtitle{
+    font-family: var(--type-second);
+    line-height: 1;
+    font-size: 32px;
+}
+
+.subtitle::after{
+    content: '';
+    display: block;
+    background: #ddd;
+    height: 8px;
+    width: 48px;
+    border-radius: 4px;
+}

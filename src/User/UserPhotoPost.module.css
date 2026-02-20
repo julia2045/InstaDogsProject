@@ -1,0 +1,29 @@
+.photoPost{
+    display: flex;
+    gap: 32px;
+    margin-bottom: 32px;
+}
+
+@media (max-width: 640px){
+    .photoPost{
+        grid-template-columns: 1fr;
+    }
+}
+
+.files{
+    margin-bottom: 16px;
+}
+
+.preview{
+    border-radius: 16px;
+    background-size: cover;
+    background-position: center center;
+    width: 600px;
+    height: 600px;
+}
+
+.preview::after{
+    content: '';
+    display: block;
+    padding-bottom: 50%;
+}
